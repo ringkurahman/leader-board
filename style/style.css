@@ -1,17 +1,92 @@
-:root {
-  --ff-primary: "Poppins", sans-serif;
-  --ff-secondary: "Roboto", sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #562eff;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-img {
-  display: block;
-  max-width: 100%;
-}
 /* Custom Style */
+.brand-logo {
+  width: 40px;
+}
+.brand-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.owner {
+  width: 51px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  line-height: 24px;
+}
+/* Main Area */
+.gray-bg {
+  background: #e5e5e5;
+  border-radius: 5px;
+}
+.player-image {
+  width: 56px;
+}
+.player-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d1d1d1;
+}
+/* Blog Area */
+.blog-image {
+  width: 177px;
+  height: 117px;
+}
+.writer-name {
+  line-height: 24px;
+}
+.writer-color {
+  color: #562eff;
+}
+/* Course Area */
+.card {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+}
+.card-title {
+  line-height: 23px;
+}
+.card-text {
+  font-size: 14px;
+  line-height: 17px;
+}
+.star {
+  width: 15px;
+}
+.timer-btn {
+  padding: 2px 4px;
+  background: #ffe4e8;
+  border-radius: 14px;
+}
+.timer {
+  width: 24px;
+}
+.time {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff4a60;
+}
